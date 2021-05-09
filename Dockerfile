@@ -1,7 +1,7 @@
 # Example shiny app docker file
 # https://blog.sellorm.com/2021/04/25/shiny-app-in-docker/
 
-# get shiny serves plus tidyverse packages image
+# get shiny serveR and a version of R from the rocker project
 FROM rocker/shiny:4.0.5
 
 # system libraries
